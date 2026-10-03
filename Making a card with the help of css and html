@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background-color: rgb(146, 142, 136); font-family: 'Segoe UI', sans-serif; }
+.card {
+  background-color: rgb(255, 253, 124);
+  border: 2px solid rgb(100, 76, 76);
+  border-radius: 24px;
+  width: 310px;
+  margin: 50px auto;
+  padding: 15px;
+}
+.image img {
+  border-radius: 19px;
+  width: 100%;
+}
+.capsules { padding: 10px 17px; }
+.capsules span {
+  border: 1.5px solid rgb(96, 32, 214);
+  border-radius: 7px;
+  padding: 1px 9px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.content { padding: 10px 13px; }
+h2 { color: rgb(7, 7, 70); margin-bottom: 8px; }
+.content p { font-size: 14px; color: rgb(155, 12, 12); line-height: 1.4; }
+.button { text-align: center; margin-top: 12px; }
+.button button {
+  background-color: rgb(5, 101, 139);
+  color: white; border: none;
+  padding: 8px 16px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="image">
+      <img src="https://images.pexels.com/photos/17841018/pexels-photo-17841018.jpeg" alt="Lake">
+    </div>
+    <div class="capsules">
+      <span>Nature</span>
+      <span>Lake</span>
+    </div>
+    <div class="content">
+      <h2>About Lake</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore illum facilis dolor sit, soluta iste ipsa distinctio ea. Quae non nihil distinctio eligendi laboriosam sequi asperiores, mollitia consectetur voluptate, molestiae ipsam aspernatur.</p>
+    </div>
+    <div class="button">
+      <button>Read More</button>
+    </div>
+  </div>
+
+</body>
+</html>
